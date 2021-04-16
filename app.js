@@ -9,7 +9,7 @@ var usersRouter = require('./routes/users');
 testAPIRouter = require("./routes/testAPI");
 var productRouter = require("./routes/productRoute");
 var cartRouter = require("./routes/cartRoute");
-const connectDB = require("./db/DBConnection");
+const connectDB = require("./DB/DBConnection");
 const dbUserRouter = require("./routes/signin");
 
 var app = express();
